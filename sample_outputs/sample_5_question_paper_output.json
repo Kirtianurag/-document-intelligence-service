@@ -1,0 +1,146 @@
+{
+  "document_id": "c50d38f0-afd4-4e5c-acff-b13aad90dd5a",
+  "filename": "sample_5_question_paper.pdf",
+  "document_type": "QUESTION_PAPER",
+  "status": "NEEDS_REVIEW",
+  "page_count": 1,
+  "processing_time_ms": 625,
+  "total_questions": 6,
+  "questions": [
+    {
+      "question_number": "1",
+      "question": "State Newton's second law of motion.",
+      "question_type": "MULTIPLE_CHOICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "F = ma"
+        },
+        {
+          "key": "B",
+          "text": "F = m/a"
+        }
+      ],
+      "answer": null,
+      "answer_source": "NOT_FOUND",
+      "source_pages": [
+        1
+      ],
+      "confidence": 0.83,
+      "confidence_level": "NEEDS_REVIEW",
+      "has_images": false,
+      "review_reasons": [
+        "Non-standard option count: 2 options extracted.",
+        "Unmatched or uncertain answer key."
+      ]
+    },
+    {
+      "question_number": "C",
+      "question": "F = m^2 a",
+      "question_type": "SHORT_ANSWER",
+      "options": [],
+      "answer": null,
+      "answer_source": "NOT_FOUND",
+      "source_pages": [
+        1
+      ],
+      "confidence": 0.74,
+      "confidence_level": "NEEDS_REVIEW",
+      "has_images": false,
+      "review_reasons": [
+        "Question text is unusually short.",
+        "Unmatched or uncertain answer key."
+      ]
+    },
+    {
+      "question_number": "D",
+      "question": "F = v/t",
+      "question_type": "SHORT_ANSWER",
+      "options": [],
+      "answer": null,
+      "answer_source": "NOT_FOUND",
+      "source_pages": [
+        1
+      ],
+      "confidence": 0.74,
+      "confidence_level": "NEEDS_REVIEW",
+      "has_images": false,
+      "review_reasons": [
+        "Question text is unusually short.",
+        "Unmatched or uncertain answer key."
+      ]
+    },
+    {
+      "question_number": "2",
+      "question": "What is the SI unit of electric current?",
+      "question_type": "MULTIPLE_CHOICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "Volt"
+        },
+        {
+          "key": "B",
+          "text": "Ohm"
+        }
+      ],
+      "answer": null,
+      "answer_source": "NOT_FOUND",
+      "source_pages": [
+        1
+      ],
+      "confidence": 0.83,
+      "confidence_level": "NEEDS_REVIEW",
+      "has_images": false,
+      "review_reasons": [
+        "Non-standard option count: 2 options extracted.",
+        "Unmatched or uncertain answer key."
+      ]
+    },
+    {
+      "question_number": "C",
+      "question": "Ampere",
+      "question_type": "SHORT_ANSWER",
+      "options": [],
+      "answer": null,
+      "answer_source": "NOT_FOUND",
+      "source_pages": [
+        1
+      ],
+      "confidence": 0.74,
+      "confidence_level": "NEEDS_REVIEW",
+      "has_images": false,
+      "review_reasons": [
+        "Question text is unusually short.",
+        "Unmatched or uncertain answer key."
+      ]
+    },
+    {
+      "question_number": "D",
+      "question": "Watt",
+      "question_type": "SHORT_ANSWER",
+      "options": [],
+      "answer": null,
+      "answer_source": "NOT_FOUND",
+      "source_pages": [
+        1
+      ],
+      "confidence": 0.74,
+      "confidence_level": "NEEDS_REVIEW",
+      "has_images": false,
+      "review_reasons": [
+        "Question text is unusually short.",
+        "Unmatched or uncertain answer key."
+      ]
+    }
+  ],
+  "answer_keys": [],
+  "warnings": [
+    "Question 1 requires review: Non-standard option count: 2 options extracted., Unmatched or uncertain answer key.",
+    "Question C requires review: Question text is unusually short., Unmatched or uncertain answer key.",
+    "Question D requires review: Question text is unusually short., Unmatched or uncertain answer key.",
+    "Question 2 requires review: Non-standard option count: 2 options extracted., Unmatched or uncertain answer key.",
+    "Question C requires review: Question text is unusually short., Unmatched or uncertain answer key.",
+    "Question D requires review: Question text is unusually short., Unmatched or uncertain answer key."
+  ]
+}

@@ -1,0 +1,70 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    container_name: doc_intelligence_api
+    ports:
+      - "8000:8000"
+    environment:
+      - PROJECT_NAME=Document Intelligence & Question Extraction Service
+      - API_V1_STR=/api/v1
+      - SECRET_KEY=prod_super_secret_jwt_key_pragati_bharati
+      - POSTGRES_SERVER=db
+      - POSTGRES_PORT=5432
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=doc_intelligence
+      - USE_SQLITE_FALLBACK=false
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - REDIS_URL=redis://redis:6379/0
+      - USE_LOCAL_BACKGROUND_TASKS=false
+      - UPLOAD_DIR=storage/uploads
+    depends_on:
+      - db
+      - redis
+    volumes:
+      - ./storage:/app/storage
+
+  worker:
+    build: .
+    container_name: doc_intelligence_worker
+    command: celery -A app.worker.celery_worker.celery_app worker --loglevel=info
+    environment:
+      - POSTGRES_SERVER=db
+      - POSTGRES_PORT=5432
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=doc_intelligence
+      - USE_SQLITE_FALLBACK=false
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - REDIS_URL=redis://redis:6379/0
+      - UPLOAD_DIR=storage/uploads
+    depends_on:
+      - db
+      - redis
+    volumes:
+      - ./storage:/app/storage
+
+  db:
+    image: postgres:15-alpine
+    container_name: doc_intelligence_db
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=doc_intelligence
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7-alpine
+    container_name: doc_intelligence_redis
+    ports:
+      - "6379:6379"
+
+volumes:
+  postgres_data:

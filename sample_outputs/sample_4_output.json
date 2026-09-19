@@ -1,0 +1,186 @@
+{
+  "document_id": "5151f8a6-4f90-478a-8063-bf7a139b4f6b",
+  "filename": "sample_4_multipage_split.pdf",
+  "document_type": "ANSWER_KEY",
+  "status": "NEEDS_REVIEW",
+  "page_count": 2,
+  "processing_time_ms": 614,
+  "total_questions": 8,
+  "questions": [
+    {
+      "question_number": "1",
+      "question": "What is the primary function of mitochondria?",
+      "question_type": "MULTIPLE_CHOICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "Protein synthesis"
+        },
+        {
+          "key": "B",
+          "text": "Energy production"
+        }
+      ],
+      "answer": "B",
+      "answer_source": "EMBEDDED_KEY",
+      "source_pages": [
+        1
+      ],
+      "confidence": 0.92,
+      "confidence_level": "HIGH",
+      "has_images": false,
+      "review_reasons": [
+        "Non-standard option count: 2 options extracted."
+      ]
+    },
+    {
+      "question_number": "C",
+      "question": "DNA replication",
+      "question_type": "SHORT_ANSWER",
+      "options": [],
+      "answer": null,
+      "answer_source": "NOT_FOUND",
+      "source_pages": [
+        1
+      ],
+      "confidence": 0.91,
+      "confidence_level": "HIGH",
+      "has_images": false,
+      "review_reasons": [
+        "Unmatched or uncertain answer key."
+      ]
+    },
+    {
+      "question_number": "D",
+      "question": "Lipid storage",
+      "question_type": "SHORT_ANSWER",
+      "options": [],
+      "answer": null,
+      "answer_source": "NOT_FOUND",
+      "source_pages": [
+        1
+      ],
+      "confidence": 0.91,
+      "confidence_level": "HIGH",
+      "has_images": false,
+      "review_reasons": [
+        "Unmatched or uncertain answer key."
+      ]
+    },
+    {
+      "question_number": "2",
+      "question": "A complex physics question starts on Page 1: Consider a particle of mass m moving under a centra\nPAGE 2 (CONTINUATION OF QUESTION PAPER)\nWhat is the total mechanical energy of the particle in terms of semi-major axis 'a'?",
+      "question_type": "MULTIPLE_CHOICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "E = -k /"
+        },
+        {
+          "key": "B",
+          "text": "E = -k / a"
+        }
+      ],
+      "answer": "A",
+      "answer_source": "EMBEDDED_KEY",
+      "source_pages": [
+        1,
+        2
+      ],
+      "confidence": 0.9,
+      "confidence_level": "NEEDS_REVIEW",
+      "has_images": false,
+      "review_reasons": [
+        "Non-standard option count: 2 options extracted.",
+        "Question spans across multiple pages (1, 2)."
+      ]
+    },
+    {
+      "question_number": "C",
+      "question": "E = -2k / a",
+      "question_type": "SHORT_ANSWER",
+      "options": [],
+      "answer": null,
+      "answer_source": "NOT_FOUND",
+      "source_pages": [
+        2
+      ],
+      "confidence": 0.91,
+      "confidence_level": "HIGH",
+      "has_images": false,
+      "review_reasons": [
+        "Unmatched or uncertain answer key."
+      ]
+    },
+    {
+      "question_number": "D",
+      "question": "E = 0\nANSWER KEY:",
+      "question_type": "SHORT_ANSWER",
+      "options": [],
+      "answer": null,
+      "answer_source": "NOT_FOUND",
+      "source_pages": [
+        2
+      ],
+      "confidence": 0.91,
+      "confidence_level": "HIGH",
+      "has_images": false,
+      "review_reasons": [
+        "Unmatched or uncertain answer key."
+      ]
+    },
+    {
+      "question_number": "1",
+      "question": "B",
+      "question_type": "SHORT_ANSWER",
+      "options": [],
+      "answer": "B",
+      "answer_source": "EMBEDDED_KEY",
+      "source_pages": [
+        2
+      ],
+      "confidence": 0.83,
+      "confidence_level": "MEDIUM",
+      "has_images": false,
+      "review_reasons": [
+        "Question text is unusually short."
+      ]
+    },
+    {
+      "question_number": "2",
+      "question": "A",
+      "question_type": "SHORT_ANSWER",
+      "options": [],
+      "answer": "A",
+      "answer_source": "EMBEDDED_KEY",
+      "source_pages": [
+        2
+      ],
+      "confidence": 0.83,
+      "confidence_level": "MEDIUM",
+      "has_images": false,
+      "review_reasons": [
+        "Question text is unusually short."
+      ]
+    }
+  ],
+  "answer_keys": [
+    {
+      "question_number": "1",
+      "raw_answer": "B",
+      "parsed_answer": "B",
+      "confidence": 0.95,
+      "source_page": 2
+    },
+    {
+      "question_number": "2",
+      "raw_answer": "A",
+      "parsed_answer": "A",
+      "confidence": 0.95,
+      "source_page": 2
+    }
+  ],
+  "warnings": [
+    "Question 2 requires review: Non-standard option count: 2 options extracted., Question spans across multiple pages (1, 2)."
+  ]
+}

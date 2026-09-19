@@ -1,0 +1,70 @@
+{
+  "document_id": "477651e8-7355-4f78-9302-4e67b4fa7d9d",
+  "filename": "sample_3_low_quality.pdf",
+  "document_type": "QUESTION_PAPER",
+  "status": "NEEDS_REVIEW",
+  "page_count": 1,
+  "processing_time_ms": 656,
+  "total_questions": 2,
+  "questions": [
+    {
+      "question_number": "1",
+      "question": "Unclear blur question text with noise...",
+      "question_type": "MULTIPLE_CHOICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        }
+      ],
+      "answer": null,
+      "answer_source": "NOT_FOUND",
+      "source_pages": [
+        1
+      ],
+      "confidence": 0.83,
+      "confidence_level": "NEEDS_REVIEW",
+      "has_images": false,
+      "review_reasons": [
+        "Non-standard option count: 2 options extracted.",
+        "Unmatched or uncertain answer key."
+      ]
+    },
+    {
+      "question_number": "2",
+      "question": "What is the velocity of light in vacuum?",
+      "question_type": "MULTIPLE_CHOICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "3 x 10^8 m/s"
+        },
+        {
+          "key": "B",
+          "text": "1.5 x 10^8 m/s"
+        }
+      ],
+      "answer": null,
+      "answer_source": "NOT_FOUND",
+      "source_pages": [
+        1
+      ],
+      "confidence": 0.83,
+      "confidence_level": "NEEDS_REVIEW",
+      "has_images": false,
+      "review_reasons": [
+        "Non-standard option count: 2 options extracted.",
+        "Unmatched or uncertain answer key."
+      ]
+    }
+  ],
+  "answer_keys": [],
+  "warnings": [
+    "Question 1 requires review: Non-standard option count: 2 options extracted., Unmatched or uncertain answer key.",
+    "Question 2 requires review: Non-standard option count: 2 options extracted., Unmatched or uncertain answer key."
+  ]
+}

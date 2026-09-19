@@ -1,0 +1,28 @@
+# Python & Pytest
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+*.db
+*.sqlite3
+
+# Environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Storage / Uploads (Keep folder structure, exclude raw generated temporary files if large)
+# storage/uploads/*
+# !storage/uploads/.gitkeep
+
+# Environment variables
+.env

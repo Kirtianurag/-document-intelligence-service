@@ -1,0 +1,365 @@
+{
+  "document_id": "e41f23e1-a298-414a-8f62-efd7f94f5c94",
+  "filename": "sample_1_clean.pdf",
+  "document_type": "ANSWER_KEY",
+  "status": "NEEDS_REVIEW",
+  "page_count": 1,
+  "processing_time_ms": 959,
+  "total_questions": 16,
+  "questions": [
+    {
+      "question_number": "1",
+      "question": "What is the capital of France?",
+      "question_type": "MULTIPLE_CHOICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "Berlin"
+        },
+        {
+          "key": "B",
+          "text": "Paris"
+        }
+      ],
+      "answer": "B",
+      "answer_source": "EMBEDDED_KEY",
+      "source_pages": [
+        1
+      ],
+      "confidence": 0.92,
+      "confidence_level": "HIGH",
+      "has_images": false,
+      "review_reasons": [
+        "Non-standard option count: 2 options extracted."
+      ]
+    },
+    {
+      "question_number": "C",
+      "question": "Madrid",
+      "question_type": "SHORT_ANSWER",
+      "options": [],
+      "answer": null,
+      "answer_source": "NOT_FOUND",
+      "source_pages": [
+        1
+      ],
+      "confidence": 0.74,
+      "confidence_level": "NEEDS_REVIEW",
+      "has_images": false,
+      "review_reasons": [
+        "Question text is unusually short.",
+        "Unmatched or uncertain answer key."
+      ]
+    },
+    {
+      "question_number": "D",
+      "question": "Rome",
+      "question_type": "SHORT_ANSWER",
+      "options": [],
+      "answer": null,
+      "answer_source": "NOT_FOUND",
+      "source_pages": [
+        1
+      ],
+      "confidence": 0.74,
+      "confidence_level": "NEEDS_REVIEW",
+      "has_images": false,
+      "review_reasons": [
+        "Question text is unusually short.",
+        "Unmatched or uncertain answer key."
+      ]
+    },
+    {
+      "question_number": "2",
+      "question": "Which planet is known as the Red Planet?",
+      "question_type": "MULTIPLE_CHOICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "Venus"
+        },
+        {
+          "key": "B",
+          "text": "Jupiter"
+        }
+      ],
+      "answer": "C",
+      "answer_source": "EMBEDDED_KEY",
+      "source_pages": [
+        1
+      ],
+      "confidence": 0.92,
+      "confidence_level": "HIGH",
+      "has_images": false,
+      "review_reasons": [
+        "Non-standard option count: 2 options extracted."
+      ]
+    },
+    {
+      "question_number": "C",
+      "question": "Mars",
+      "question_type": "SHORT_ANSWER",
+      "options": [],
+      "answer": null,
+      "answer_source": "NOT_FOUND",
+      "source_pages": [
+        1
+      ],
+      "confidence": 0.74,
+      "confidence_level": "NEEDS_REVIEW",
+      "has_images": false,
+      "review_reasons": [
+        "Question text is unusually short.",
+        "Unmatched or uncertain answer key."
+      ]
+    },
+    {
+      "question_number": "D",
+      "question": "Saturn",
+      "question_type": "SHORT_ANSWER",
+      "options": [],
+      "answer": null,
+      "answer_source": "NOT_FOUND",
+      "source_pages": [
+        1
+      ],
+      "confidence": 0.74,
+      "confidence_level": "NEEDS_REVIEW",
+      "has_images": false,
+      "review_reasons": [
+        "Question text is unusually short.",
+        "Unmatched or uncertain answer key."
+      ]
+    },
+    {
+      "question_number": "3",
+      "question": "Calculate the derivative of f(x) = 3x^2 + 5x - 7.",
+      "question_type": "MULTIPLE_CHOICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "6x + 5"
+        },
+        {
+          "key": "B",
+          "text": "3x + 5"
+        }
+      ],
+      "answer": "A",
+      "answer_source": "EMBEDDED_KEY",
+      "source_pages": [
+        1
+      ],
+      "confidence": 0.92,
+      "confidence_level": "HIGH",
+      "has_images": false,
+      "review_reasons": [
+        "Non-standard option count: 2 options extracted."
+      ]
+    },
+    {
+      "question_number": "C",
+      "question": "6x - 7",
+      "question_type": "SHORT_ANSWER",
+      "options": [],
+      "answer": null,
+      "answer_source": "NOT_FOUND",
+      "source_pages": [
+        1
+      ],
+      "confidence": 0.74,
+      "confidence_level": "NEEDS_REVIEW",
+      "has_images": false,
+      "review_reasons": [
+        "Question text is unusually short.",
+        "Unmatched or uncertain answer key."
+      ]
+    },
+    {
+      "question_number": "D",
+      "question": "3x^2 + 5",
+      "question_type": "SHORT_ANSWER",
+      "options": [],
+      "answer": null,
+      "answer_source": "NOT_FOUND",
+      "source_pages": [
+        1
+      ],
+      "confidence": 0.74,
+      "confidence_level": "NEEDS_REVIEW",
+      "has_images": false,
+      "review_reasons": [
+        "Question text is unusually short.",
+        "Unmatched or uncertain answer key."
+      ]
+    },
+    {
+      "question_number": "4",
+      "question": "Solve the equation 2x + 10 = 20 for x.",
+      "question_type": "MULTIPLE_CHOICE",
+      "options": [
+        {
+          "key": "A",
+          "text": "5"
+        },
+        {
+          "key": "B",
+          "text": "10"
+        }
+      ],
+      "answer": "A",
+      "answer_source": "EMBEDDED_KEY",
+      "source_pages": [
+        1
+      ],
+      "confidence": 0.92,
+      "confidence_level": "HIGH",
+      "has_images": false,
+      "review_reasons": [
+        "Non-standard option count: 2 options extracted."
+      ]
+    },
+    {
+      "question_number": "C",
+      "question": "15",
+      "question_type": "SHORT_ANSWER",
+      "options": [],
+      "answer": null,
+      "answer_source": "NOT_FOUND",
+      "source_pages": [
+        1
+      ],
+      "confidence": 0.74,
+      "confidence_level": "NEEDS_REVIEW",
+      "has_images": false,
+      "review_reasons": [
+        "Question text is unusually short.",
+        "Unmatched or uncertain answer key."
+      ]
+    },
+    {
+      "question_number": "D",
+      "question": "20\nANSWER KEY:",
+      "question_type": "SHORT_ANSWER",
+      "options": [],
+      "answer": null,
+      "answer_source": "NOT_FOUND",
+      "source_pages": [
+        1
+      ],
+      "confidence": 0.91,
+      "confidence_level": "HIGH",
+      "has_images": false,
+      "review_reasons": [
+        "Unmatched or uncertain answer key."
+      ]
+    },
+    {
+      "question_number": "1",
+      "question": "B",
+      "question_type": "SHORT_ANSWER",
+      "options": [],
+      "answer": "B",
+      "answer_source": "EMBEDDED_KEY",
+      "source_pages": [
+        1
+      ],
+      "confidence": 0.83,
+      "confidence_level": "MEDIUM",
+      "has_images": false,
+      "review_reasons": [
+        "Question text is unusually short."
+      ]
+    },
+    {
+      "question_number": "2",
+      "question": "C",
+      "question_type": "SHORT_ANSWER",
+      "options": [],
+      "answer": "C",
+      "answer_source": "EMBEDDED_KEY",
+      "source_pages": [
+        1
+      ],
+      "confidence": 0.83,
+      "confidence_level": "MEDIUM",
+      "has_images": false,
+      "review_reasons": [
+        "Question text is unusually short."
+      ]
+    },
+    {
+      "question_number": "3",
+      "question": "A",
+      "question_type": "SHORT_ANSWER",
+      "options": [],
+      "answer": "A",
+      "answer_source": "EMBEDDED_KEY",
+      "source_pages": [
+        1
+      ],
+      "confidence": 0.83,
+      "confidence_level": "MEDIUM",
+      "has_images": false,
+      "review_reasons": [
+        "Question text is unusually short."
+      ]
+    },
+    {
+      "question_number": "4",
+      "question": "A",
+      "question_type": "SHORT_ANSWER",
+      "options": [],
+      "answer": "A",
+      "answer_source": "EMBEDDED_KEY",
+      "source_pages": [
+        1
+      ],
+      "confidence": 0.83,
+      "confidence_level": "MEDIUM",
+      "has_images": false,
+      "review_reasons": [
+        "Question text is unusually short."
+      ]
+    }
+  ],
+  "answer_keys": [
+    {
+      "question_number": "1",
+      "raw_answer": "B",
+      "parsed_answer": "B",
+      "confidence": 0.95,
+      "source_page": 1
+    },
+    {
+      "question_number": "2",
+      "raw_answer": "C",
+      "parsed_answer": "C",
+      "confidence": 0.95,
+      "source_page": 1
+    },
+    {
+      "question_number": "3",
+      "raw_answer": "A",
+      "parsed_answer": "A",
+      "confidence": 0.95,
+      "source_page": 1
+    },
+    {
+      "question_number": "4",
+      "raw_answer": "A",
+      "parsed_answer": "A",
+      "confidence": 0.95,
+      "source_page": 1
+    }
+  ],
+  "warnings": [
+    "Question C requires review: Question text is unusually short., Unmatched or uncertain answer key.",
+    "Question D requires review: Question text is unusually short., Unmatched or uncertain answer key.",
+    "Question C requires review: Question text is unusually short., Unmatched or uncertain answer key.",
+    "Question D requires review: Question text is unusually short., Unmatched or uncertain answer key.",
+    "Question C requires review: Question text is unusually short., Unmatched or uncertain answer key.",
+    "Question D requires review: Question text is unusually short., Unmatched or uncertain answer key.",
+    "Question C requires review: Question text is unusually short., Unmatched or uncertain answer key."
+  ]
+}

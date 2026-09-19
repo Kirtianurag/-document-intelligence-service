@@ -1,0 +1,62 @@
+{
+  "document_id": "1b1a23bf-89e5-4855-95ac-0d9c544db897",
+  "filename": "sample_5_answer_key.pdf",
+  "document_type": "ANSWER_KEY",
+  "status": "COMPLETED",
+  "page_count": 1,
+  "processing_time_ms": 1229,
+  "total_questions": 2,
+  "questions": [
+    {
+      "question_number": "1",
+      "question": "A",
+      "question_type": "SHORT_ANSWER",
+      "options": [],
+      "answer": "A",
+      "answer_source": "EMBEDDED_KEY",
+      "source_pages": [
+        1
+      ],
+      "confidence": 0.83,
+      "confidence_level": "MEDIUM",
+      "has_images": false,
+      "review_reasons": [
+        "Question text is unusually short."
+      ]
+    },
+    {
+      "question_number": "2",
+      "question": "C",
+      "question_type": "SHORT_ANSWER",
+      "options": [],
+      "answer": "C",
+      "answer_source": "EMBEDDED_KEY",
+      "source_pages": [
+        1
+      ],
+      "confidence": 0.83,
+      "confidence_level": "MEDIUM",
+      "has_images": false,
+      "review_reasons": [
+        "Question text is unusually short."
+      ]
+    }
+  ],
+  "answer_keys": [
+    {
+      "question_number": "1",
+      "raw_answer": "A",
+      "parsed_answer": "A",
+      "confidence": 0.95,
+      "source_page": 1
+    },
+    {
+      "question_number": "2",
+      "raw_answer": "C",
+      "parsed_answer": "C",
+      "confidence": 0.95,
+      "source_page": 1
+    }
+  ],
+  "warnings": []
+}
